@@ -1,0 +1,2 @@
+class Nodo < ApplicationRecord
+end

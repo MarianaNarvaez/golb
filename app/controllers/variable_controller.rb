@@ -1,0 +1,2 @@
+class VariableController < ApplicationController
+end

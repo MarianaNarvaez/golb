@@ -1,0 +1,35 @@
+ <html>
+  <head>
+
+  </head>
+
+ <body>
+  	<header>
+  		<nav class="nav large-padding">
+  			<ul class="no-list
+  			row ">
+  				<ol class="col-md">
+  					<h1 class = "no-margin air"
+             >
+            <%= link_to "AiRescue", root_path%>
+            </h1>
+  				</ol>
+          </ol>
+  				<ol class="col-md var">
+  					<%= link_to "Variables", root_path%>
+  				</ol>
+  				<ol class="col-md est">
+  					<%= link_to "Estadisticas", root_path%>			
+  			</ul>
+  		</nav>
+      <h2 class = "plaza">
+          Plaza de Botero
+      </h2>
+      <div class="field">
+        <%= text_area :dato, placeholder: "Escriba",class:"form-control" %>
+      </div>
+
+  	</header>
+    <%= yield %>
+  </body>
+</html>
